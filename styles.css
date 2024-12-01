@@ -1,0 +1,45 @@
+
+header{
+margin:0;
+padding:0;
+color:black;
+box-sizing: border-box;
+font-family:sans-serif
+
+}
+
+code{
+background-color:rgba(104, 101, 101, 0.397);
+font-family: 'Courier New', Courier, monospace;
+padding: 15px;
+line-height: 2;
+display: block;
+margin: 15px;
+border-radius: 5px;
+}
+body{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+
+}
+articles{
+    margin-left: 15px;
+    font-size: 1rem;
+}
+navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    width: 20%;
+    height: 100%;
+}
+navbar header{
+    position: sticky;
+    top:0;
+    text-align: center;
+    background-color: white;
+    padding: 20px 30px;
+    font-size: 2rem;
+}
