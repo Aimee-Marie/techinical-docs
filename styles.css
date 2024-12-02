@@ -4,8 +4,8 @@ margin:0;
 padding:0;
 color:black;
 box-sizing: border-box;
-font-family:sans-serif
-
+font-family:sans-serif;
+font-style:board;
 }
 
 code{
@@ -41,5 +41,9 @@ navbar header{
     text-align: center;
     background-color: white;
     padding: 20px 30px;
-    font-size: 2rem;
+    font-size: 2em;
+}
+ 
+ p sssMDN{
+    color: rgb(26, 26, 190);
 }

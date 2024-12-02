@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav id="navbar"></nav>
-   <header>JS Documentation</header>
+    <nav id="navbar">
+   <h1>JS Documentation</h1>
    <a class="nav-link" href="#Introduction">Introduction</a>
    <a class="nav-link" href="#What you should already know">What you should already know</a>  
    <a class="nav-link" href="#Java script and Java>Java script and Java">Java script and Java>Java script and Java</a>
@@ -23,7 +23,7 @@
    <a class="nav-link" href="#While statement">While statement</a>
    <a class="nav-link" href="#Function declaration">Function declaration</a>
    <a class="nav-link" href="#Reference">Reference</a>
-   
+   </nav>
       
    
    
@@ -32,7 +32,7 @@
    
    <main id="main-doc"> 
         <section class="main section" 
-        id="Introduction"><header>Introduction</header>
+        id="Introduction"><h1>Introduction</h1>
     <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host
          environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide 
          programmatic control over them.</p>
@@ -52,7 +52,7 @@
 </section>
         
     <section class="main section" 
-        id="What you should already know"><header>What you should already know</header>
+        id="What you should already know"><h1>What you should already know</h1>
         <p>This guide assumes you have the following basic background:</p>
         <li>
 <ul>
@@ -64,7 +64,7 @@
   </li>
     </section>
         <section class="main section" 
-        id="Java script and Java"><header>Java script and Java</header>
+        id="Java script and Java"><h1>Java script and Java</h1>
         <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles 
             Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, 
             naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
@@ -82,7 +82,7 @@
     </section>
        
     <section class="main section" 
-    id="Hello world"><header>Hello world</header>
+    id="Hello world"><h1>Hello world</h1>
     <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
     <code>function greetMe(yourName) { alert("Hello " + yourName); }
         greetMe("World");</code>
@@ -91,7 +91,7 @@
 </section>
         
     <section class="main section" 
-        id="Variables"><header>Variables</header>
+        id="Variables"><h1>Variables</h1>
         <p>You use variables as symbolic names for values in your application. 
             The names of variables, called identifiers, conform to certain rules.</p>
         <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). 
@@ -103,7 +103,7 @@
         </section>
         
          <section class="main section" 
-        id="Declaring variable"><header>Declaring Variable</header>
+        id="Declaring variable"><h1>Declaring Variable</h1>
                 
        <p>You can declare a variable in three ways:</p>
        <p>With the keyword var. For example,</p>
@@ -127,7 +127,7 @@
         
         
         <section class="main section" 
-        id="Variable scope"><header>Variable scope</header>
+        id="Variable scope"><h1>Variable scope</h1>
         <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in 
             the current document. When you declare a variable within a function, it is called a local variable, because it is available only 
             within that function.</p>            
@@ -147,7 +147,7 @@
     </section>
         
         <section class="main section" 
-        id="Global Variables"><header>Golobal Variables</header>
+        id="Global Variables"><h1>Golobal Variables</h1>
         <p>Global variables are in fact properties of the global object. In web pages the global object is 
             window, so you can set and access global variables using the window.variable syntax.</p>               
         <p>Consequently, you can access global variables declared in one  window or frame from another window or 
@@ -157,7 +157,7 @@
     </section>
         
         <section class="main section" 
-        id="Constants"><header>Constants</header>
+        id="Constants"><h1>Constants</h1>
         <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier 
             is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can
              contain alphabetic, numeric, or underscore characters.</p>                    
@@ -182,7 +182,7 @@
         
         
         <section class="main section" 
-        id="Data types"><header>Data types</header>
+        id="Data types"><h1>Data types</h1>
         <p>The latest ECMAScript standard defines seven data types:</p>                      
         
         <li>
@@ -212,7 +212,7 @@
         
         
         <section class="main section" 
-        id="if...else statements"><header>if...else statements</header>
+        id="if...else statements"><h1>if...else statements</h1>
         <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else 
             clause to execute a statement if the condition is false. An if statement looks as follows:</p>
             <code>if (condition) { statement_1; } else { statement_2; }</code>
@@ -250,7 +250,7 @@
         
         
         <section class="main section" 
-        id="While statement"><header>While statement</header>
+        id="While statement"><h1>While statement</h1>
         <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>                                
         
         <code>while (condition) statement</code>
@@ -282,7 +282,7 @@
     </section>
         
         <section class="main section" 
-        id="function declaration"><header>Function declaration</header>
+        id="function declaration"><h1>Function declaration</h1>
         <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>                          
        <li>
 
@@ -307,7 +307,7 @@
     </section>
 
         <section class="main section" 
-        id="Reference"><header>Reference</header>
+        id="Reference"><h1>Reference</h1>
         
         <li>
 <ul>
